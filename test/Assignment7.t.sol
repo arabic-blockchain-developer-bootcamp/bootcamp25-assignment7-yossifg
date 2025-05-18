@@ -8,8 +8,8 @@ contract Assignment7Test is Test {
     Assignment7 assignment;
 
     function setUp() public {
-        // pass your token name and symbol here
-        assignment = new Assignment7();
+        // Pass token name and symbol to constructor
+        assignment = new Assignment7("MyToken", "MTK");
     }
 
     function testMintAndTransfer() public {
